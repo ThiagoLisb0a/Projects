@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body,html{
+	
+	height: 100% ;
+	
+
+	
+}
+
+header{
+
+	width: 100% ;
+	height: 200px;
+	background-color:#42a4f5;
+}
+
+header p{
+	padding-top: 70px;
+	padding-bottom: 30px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+
+.box-content{
+	text-align: center;
+	border-radius: 10px;
+	background-color: white;
+	width: 500px;
+	height: 405px;
+	margin: -50px auto;
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.74);
+}
+
+.box-img{
+
+	width:500px;
+	height: 170px;
+	
+}
+
+ .img-person{
+ 	display: inline-block;
+ 	padding-top: 15px;
+ 	margin: 35px auto;
+ 	width: 150px;
+ 	height: 150px;
+	background-image: url('../images/profile.png');
+	background-size: cover;
+	background-position: center;
+	
+	
+}
+
+
+input{
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-bottom: 2px solid #1890ff;
+	font-size: 15px;
+	border-left: none;
+	border-right: none;
+    border-top: none;
+	width: 350px;
+	height: 30px;
+	margin: 20px;
+	padding-left: 45px;
+	
+
+}
+
+p{	font-family: 'Open Sans Condensed', sans-serif;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+button{
+
+	padding: 5px 5px auto;
+	cursor: pointer;
+	margin: 25px auto;
+	width: 500px;
+	height: 50px;
+	background-color: #42a4f5;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	border: none;
+
+}
+
+
+p.reserved{
+	margin: 90px auto;
+}
+
+p{
+	color: gray;
+}
+
+
+
+
